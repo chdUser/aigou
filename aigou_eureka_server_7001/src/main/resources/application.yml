@@ -1,0 +1,10 @@
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: www.eureka-7001.com
+  client:
+    service-url:
+      defaultZone: http://www.eureka-7001.com:7001/eureka/
+    fetch-registry: false
+    register-with-eureka: false
